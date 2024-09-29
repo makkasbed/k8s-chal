@@ -20,6 +20,10 @@ This is found in **challenge-1** folder and captures the following:
   systemctl restart kubectl
   ```
 - Update the coredns image
+- copy files
+```sh
+scp /media node01:/web
+```
 - Update the **node01** to accept scheduling
   ```sh
   k uncordon node01
