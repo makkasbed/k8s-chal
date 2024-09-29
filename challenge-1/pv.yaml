@@ -7,8 +7,11 @@ spec:
   capacity:
     storage: 1Gi
   volumeMode: Filesystem
+  
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Delete
-  storageClassName: local-storage
+  #storageClassName: local-storage
+  hostPath:
+    path: "/opt/app/jekyll"
 
