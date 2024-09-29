@@ -11,7 +11,7 @@ This is found in **challenge-1** folder and captures the following:
 - Pod with links to the persistent volume: available in the **pod.yaml**
 - A NodePort Service: available in the **svc.yaml**
 
-## Challeng 2
+## Challenge 2
 
 - Change the controlplane port from **6433** to **6443**
 - Change the certificate in **/etc/kubernetes/manifests/kube-apiserver.yaml** to **ca.crt** where you see **ca-authority.crt**
