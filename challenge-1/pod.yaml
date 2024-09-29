@@ -12,7 +12,7 @@ spec:
       command: ["jekyll", "new", "site"]
   containers:
   - name: jekyll
-    image: gcr.io/kodekloud/customimage/jekyll-serv:latest
+    image: gcr.io/kodekloud/customimage/jekyll-serve
     resources: {}
     volumeMounts:
       - mountPath: /site
