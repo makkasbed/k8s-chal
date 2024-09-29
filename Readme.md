@@ -1,5 +1,5 @@
 # K8S Challenges
-This is a repo based on the K8s challenges offered in the course (CKAD with Tests)[https://www.udemy.com/course/certified-kubernetes-application-developer]
+This is a repo based on the K8s challenges offered in the course [CKAD with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer)
 
 ## Challenge 1
 This is found in **challenge-1** folder and captures the following:
